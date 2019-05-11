@@ -1,0 +1,100 @@
+
+.btn{
+    font-family: 'Ubuntu', 'Tajawal', sans-serif;
+}
+
+.selector {
+    position: relative;
+    font-size: 18px;
+}
+
+.card-image img {
+    height: 225px;
+    width: 200px
+}
+
+.card-pane {
+    position: absolute;
+    height: 48px;
+    left: 0;
+    bottom: 0;
+    width: 200px;
+    padding: 8px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(0, 0, 0,.6);
+    color: #FFF;
+}
+
+.flex {
+    flex: 1;
+}
+
+.btn-raised.mini {
+    height: 32px;
+    padding: 0 8px;
+}
+
+.btn-raised {
+    height: 44px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-accent {
+    background-color: #FF3D00;
+    background-image: linear-gradient(#FF3D00,#FF3D00);
+}
+
+.btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.cancel-btn {
+    cursor: pointer;
+}
+
+.txt-caption {
+    font-size:  15px
+}
+
+.btn-float.mini {
+    height: 32px;
+    width: 32px;
+    box-shadow: 0px 4px 4px rgba(0,0,0, .16);
+}
+
+.btn-float {
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+    box-shadow: 0px 12px 12px rgba(0,0,0, .16);
+}
+
+.btn-green {
+    background-color: #15a008;
+}
+
+.mdi {
+    font-size: 24px;
+    line-height: 24px;
+    margin: 12px;
+}
+
+.canceling {
+    display: none;
+}
